@@ -1,0 +1,12 @@
+.course-container {
+    display: flex;
+}
+
+.courseName {
+    width: 70%;
+    padding-left: 10em;
+}
+
+.cart-container {
+    padding-left: 1em;
+}
