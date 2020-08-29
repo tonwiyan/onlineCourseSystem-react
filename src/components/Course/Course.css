@@ -3,3 +3,18 @@
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
+
+.price {
+    color: red;
+}
+
+.name {
+    color: black;
+}
+
+.main-button {
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+    padding: 0.5em;
+}

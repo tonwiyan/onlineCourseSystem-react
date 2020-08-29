@@ -9,8 +9,8 @@ const Course = (props) => {
                 <h2>{props.course.courseName}</h2>
             </div>
             <div>
-                <h4>${price}</h4>
-                <p>This course taken by:{name}</p>
+                <h4 className="price">${price}</h4>
+                <p><small className="name">This course taken by:{name}</small></p>
                 <button className="main-button"
                     onClick={() => props.handleAddCourse(props.course)}
 
